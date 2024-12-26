@@ -1,0 +1,39 @@
+.visualizer-container {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  .array-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 500px;
+    margin: 20px 0;
+  }
+  
+  .array-bar {
+    width: 10px;
+    margin: 0 2px;
+    background-color: steelblue;
+    transition: height 0.2s ease-in-out;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
