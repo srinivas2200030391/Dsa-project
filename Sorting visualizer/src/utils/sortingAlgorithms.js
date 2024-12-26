@@ -3,7 +3,7 @@ const animateSorting = (array, animations, setArray) => {
     for (let i = 0; i < animations.length; i++) {
       setTimeout(() => {
         setArray([...animations[i]]);
-      }, i * 100);
+      }, i * 10);
     }
   };
   
